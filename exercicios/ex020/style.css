@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body{
+    font-family: 'Comfortaa'
+}
+a {
+    color: rgb(194, 118, 118);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: brown;
+}
+a::before{
+    content: '⇒';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+a::after{
+    content:  "⇐";
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+.especial{
+    
+}
