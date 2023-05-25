@@ -89,6 +89,7 @@ section.container2{
 #fundo2{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.384);
+    padding: 10px;
 
 }
 
@@ -97,6 +98,7 @@ footer{
     font-family: var(--fontenormal);
     text-align: center;
    padding: 10px;
+   font-weight: 1vh;
     
 
 }
