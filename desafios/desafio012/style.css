@@ -65,10 +65,7 @@ section {
     line-height: 2em;
 }
 
-section > p{
-    padding-bottom: 2em;
 
-}
 
 
 #fundo{
@@ -76,6 +73,7 @@ section > p{
     text-shadow: 3px 2px 6px black;
   padding-left: 5px;
     display: inline-block;
+   
     
 }
 
