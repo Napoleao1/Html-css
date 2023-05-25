@@ -59,8 +59,8 @@ section {
 
 #fundo{
     background-color: rgba(0, 0, 0, 0.425);
-    padding: 10px;
-    margin: 0;
+ 
+  padding-left: 5px;
     display: inline-block;
     
 }
@@ -89,7 +89,8 @@ section.container2{
 #fundo2{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.384);
-    padding: 10px;
+    padding-left: 5px;
+    
 
 }
 
