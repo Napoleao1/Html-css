@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA</title>
+    <style>
+        body{
+            font-family: arial;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.0em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        
+        td, th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cprof{
+            background-color: crimson;
+        }
+        col.cgrupo{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col class="cgrupo" span="2">
+        
+        <col class="cidade">
+        <col class="cprof">
+    </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Luiza</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Leandro</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Gerente</td>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Agricultor</td>
+        </tr>
+        <tr>
+            <td>Marta</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Programadora</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
