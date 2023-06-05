@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <style>
+    body{
+        font-family: arial;
+    }
+  </style>
+</head>
+<body>
+  <form action="cadastro.php" method="get">
+    <p>
+        <label for="icampeao">Escolha o campeão:</label>
+        <select name="campeao" id="icampeao">
+          <option value="">Escolha...</option>
+            <optgroup label="Top">
+                <option value="top1">Darius</option>
+                <option value="top2">Malphite</option>
+                <option value="top3">Jax</option>
+            </optgroup>
+            <optgroup label="Jungle">
+                <option value="jungle1">Nocture</option>
+                <option value="jungle2">Khazix</option>
+                <option value="jungle3">Kindred</option>
+            </optgroup>
+            <optgroup label="Mid">
+                <option value="mid1">Zed</option>
+                <option value="mid2">Syndra</option>
+                <option value="mid3">Vex</option>
+            </optgroup>
+            <optgroup label="Adc">
+                <option value="adc1">Jinx</option>
+                <option value="adc2">Jhin</option>
+                <option value="adc3">Nilah</option>
+            </optgroup>
+        </select>
+    </p>
+
+    <p><label for="ibuild">Digite sua build:</label><br>
+        <textarea name="build" id="ibuild" cols="40" rows="10"></textarea>
+    </p>
+
+    <p><label for="iestilo">Estilo de jogo: </label>
+        <input type="text" name="estilo" id="iestilo" list="listestilo">
+        <datalist id="listestilo">
+            <optgroup label="AD">
+                <option value="Assassino"></option>
+                <option value="Bruiser"></option>
+                <option value="Tank"></option>
+            </optgroup>
+            <optgroup label="AP">
+                <option value="Mage control"></option>
+                <option value="Hypercarry ap"></option>
+                <option value="Mage utility"></option>
+            </optgroup>
+
+        </datalist></p>
+  </form>
+
+</body>
+</html>
