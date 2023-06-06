@@ -14,6 +14,16 @@ html{
 header {
   background-color: lightgray;
 }
+header > h1{
+  text-align: center;
+}
+
+
+menu ul {
+  list-style-type: none;
+  background-color: rgb(66, 63, 63);
+  
+}
 
 menu li {
   display: inline-block;
@@ -24,16 +34,8 @@ menu li {
   
 }
 
-header > h1{
-  text-align: center;
-}
 
-menu ul {
-  list-style-type: none;
-  
-  background-color: rgb(66, 63, 63);
-  
-}
+
 
 article {
   
