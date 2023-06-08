@@ -90,6 +90,7 @@ div#campo > input {
     background-color: #ee510e8f;
     font-size: 1em;
     width: calc(100% - 45px);
+    outline: #ee510e8f;
    
     height: 99%;
     border: 0px;
@@ -127,6 +128,7 @@ form > input[type=submit]{
     background-color: #ca3e02 ;
     border-radius: 5px;
     cursor: pointer;
+    outline: none;
     
 }
 
@@ -149,6 +151,7 @@ form > a.botao{
     text-decoration: none;
     border: 1px solid #ca3e02;
     border-radius: 5px;
+    outline: none;
 }
 
 form > a.botao:hover{
