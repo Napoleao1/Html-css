@@ -6,6 +6,7 @@
     }
     section#login{
         width: 70vw;
+        height: 280px;
     }
     section#login > div#imagem {
         float: left;
@@ -25,8 +26,10 @@
     body{
         background-image: linear-gradient(to top, #e14401d2, #009480)
     }
+
     section#login{
         width: 950px;
+        height: 450px;
        
     }
 
@@ -39,13 +42,14 @@
         float: left;
         width: 50%;
     }
-    div#formulario > h1{
+    div#formulário > h1{
         font-size: 2em;
 
     }
     div#formulario  p{
    
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 }
 
