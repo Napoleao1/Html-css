@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+    #E14301 laranja
+    #FF5E19 laranja escuro
+    #009480 azul marinho
+    00E0C2 azul marinho claro
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: rgb(80, 22, 134);
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 70px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    
+}
+
+main h1{
+    text-align: center;
+}
