@@ -6,32 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href=estilos/style.css>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Meu site</h1>
+        <h1>Sports</h1>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <nav id="itens">
+            <ul>
+                <li><a href="">Notícias</a></li>
+                <li><a href="">Esportes</a></li>
+                <li><a href="">Jornalismo</a></li>
+                <li><a href="">Tecnologia</a></li>
+                <li><a href="">Podcasts</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="">Notícias</a></li>
-            <li><a href="">Esportes</a></li>
-            <li><a href="">Jornalismo</a></li>
-            <li><a href="">Tecnologia</a></li>
-            <li><a href="">Podcasts</a></li>
-        </ul>
-    </nav>
+   
     <main>
         <article>
-            <h2>Testando Media Queries</h2>
+            <h2>Esportes no Mundo</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eius eaque nisi laborum possimus quaerat nihil commodi, numquam maxime aliquid dolorem debitis esse ex suscipit dolores sequi fugit at iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam odit veritatis enim! Facilis architecto excepturi obcaecati ut tempore ex sequi debitis dignissimos explicabo, voluptatum eos dolorum quo nam quaerat exercitationem!</p>
+        <p>O esporte é uma força poderosa que transcende fronteiras geográficas, culturais e sociais, exercendo uma influência significativa no mundo. Desde tempos imemoriais, o esporte tem desempenhado um papel fundamental na sociedade, unindo pessoas e comunidades, promovendo a paz, a tolerância e a cooperação global. Em todos os cantos do planeta, o esporte se estabeleceu como uma linguagem universal, capaz de quebrar barreiras e transformar vidas.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dolor, eveniet harum doloribus eos at non ea laudantium recusandae eum? Adipisci praesentium qui temporibus quia! Commodi quia odio veniam optio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum in vero perspiciatis ullam labore! Maiores adipisci quo quod, optio libero expedita laudantium eos fugit veniam architecto commodi velit dolorum nostrum.</p>
+        <p>Uma das principais maneiras pelas quais o esporte exerce sua influência é através da competição saudável. Eventos esportivos internacionais, como os Jogos Olímpicos e a Copa do Mundo de Futebol, atraem a atenção de bilhões de pessoas ao redor do mundo, transcendendo diferenças culturais e políticas. Esses eventos proporcionam um senso de união e identidade, criando um sentimento de pertencimento a algo maior do que apenas um país ou região.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur incidunt in, ad praesentium explicabo odit unde quibusdam sed eius amet alias? Saepe dolorum, voluptas repudiandae incidunt rerum excepturi dolorem ab. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae enim nam eius repellendus corporis laudantium ut rem amet assumenda voluptatum, sit minima velit, odio omnis atque asperiores recusandae alias tempora?</p>
+        <p>Além disso, o esporte também tem o poder de inspirar. Atletas de elite, por exemplo, servem como modelos de superação, perseverança e excelência. Suas histórias de sucesso inspiram indivíduos de todas as idades e origens, demonstrando que com dedicação, trabalho árduo e determinação, é possível alcançar grandes feitos. Essas narrativas inspiradoras não só impactam as vidas dos espectadores, mas também influenciam positivamente outras áreas, como educação, negócios e saúde.</p>
         
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }   else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
         
    
 </body>
